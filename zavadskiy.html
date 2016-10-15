@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <meta name=viewport content="width=device-width, initial-scale=1">
+        <style>
+            #page-preloader {
+                position: fixed;
+                left: 0;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                background: #fff;
+                z-index: 100500;
+            }
+        </style>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="page-preloader">
+            <h1 class="preloader-hint">
+                Собирай сигареты <img class="no-smoking" src="./no-smoking.png" alt=""> не дай Завадскому   покурить.<br>Больше сигарет - больше времени в запасе.
+            </h1>
+        </div>
+        <div id="game-over-overlay">
+        </div>
+        <div id="game-over">
+            <h1>Не сегодня</h1>
+            <button id="play-again">Play Again</button>
+        </div>
+        <div class="wrapper">
+            <div id="instructions">
+        <!-- <div>
+            shoot with <span class="key">space</span>
+        </div> -->
+            </div>
+            <div id="timer"></div>
+            <div class="list">
+                <div id="score"></div>
+            </div>
+            <div id="ciggaretescore">
+            </div>
+
+        </div>
+
+    <script type="text/javascript" src="./resources.js"></script>
+    <script type="text/javascript" src="./input.js"></script>
+    <script type="text/javascript" src="./sprite.js"></script>
+    <script type="text/javascript" src="./timer.js"></script>
+     <script type="text/javascript" src="./handleinput.js"></script>
+      <script type="text/javascript" src="./updateentities.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
+  </body>
+</html>
